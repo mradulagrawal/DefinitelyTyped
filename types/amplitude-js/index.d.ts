@@ -35,6 +35,7 @@ export interface Config {
     saveParamsReferrerOncePerSession?: boolean;
     secureCookie?: boolean;
     sessionTimeout?: number;
+    sameSiteCookie?: string;
     useNativeDeviceInfo?: boolean;
     trackingOptions?: {
         city?: boolean;
